@@ -1,9 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { OrmApiModule } from './orm-api/orm-api.module';
 
 @Module({
-  imports: [],
+  imports: [OrmApiModule],
   controllers: [AppController],
   providers: [AppService],
 })
