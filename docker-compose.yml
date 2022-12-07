@@ -1,1 +1,13 @@
 version: '3'
+
+backend:
+    ports:
+      - "4000:4000"
+
+frondend:
+    ports:
+      - "3000:3000"
+
+db:
+    ports:
+      - "5432:5432"
