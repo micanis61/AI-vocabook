@@ -1,11 +1,14 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { OrmApiModule } from './orm-api/orm-api.module';
+import { OcrController } from './ocr/ocr.controller';
+import { OcrModule } from './ocr/ocr.module';
+import { OcrService } from './ocr/ocr.service';
+import { OcrResolver } from './ocr/ocr.resolver';
 
 @Module({
-  imports: [OrmApiModule],
-  controllers: [AppController],
-  providers: [AppService],
+  imports: [OcrModule],
+  controllers: [AppController, OcrController],
+  providers: [AppService, OcrService, OcrResolver],
 })
-export class AppModule {}
+export class AppModule { }

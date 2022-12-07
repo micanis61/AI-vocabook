@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-api"
+version = "0.1.0"
+description = ""
+authors = ["Haruki <tench8iphy@icloud.com>"]
+readme = "README.md"
+packages = [{include = "python_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
