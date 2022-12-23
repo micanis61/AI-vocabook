@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-test-2022"
+version = "0.1.0"
+description = ""
+authors = ["kajikaji129 <g021c1191@g.neec.ac.jp>"]
+readme = "README.md"
+packages = [{include = "ai_test_2022"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+google-cloud-vision = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
