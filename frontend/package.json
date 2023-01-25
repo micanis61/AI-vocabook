@@ -15,7 +15,12 @@
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.5",
     "next": "13.0.5",
+<<<<<<< HEAD
     "react": "^18.2.0",
+=======
+    "phosphor-react": "^1.4.1",
+    "react": "18.2.0",
+>>>>>>> 145d3d4e3905609f9fb9e13f63c25744c86eea56
     "react-camera-pro": "^1.2.1",
     "react-dom": "18.2.0",
     "react-webcam": "^7.0.1",
