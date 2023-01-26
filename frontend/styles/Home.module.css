@@ -8,7 +8,14 @@
 }
 
 .camera {
+  margin: auto;
   width: 200px;
-  height: 200px;
+  height: 356px;
   border: solid 1px black;
+}
+
+.image{
+  width: 200px;
+  height: 356px;
+  transform: scale(-1, 1);
 }
