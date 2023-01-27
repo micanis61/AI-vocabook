@@ -7,8 +7,8 @@ export default function TakePhoto() {
   const [image, setImage] = useState(null);
   return (
     <div>
-      <div className={styles.camera}>
-        <Camera 
+<div className={styles.camera}>
+        <Camera
         aspectRatio={9/16}
         ref={camera} errorMessages={{
           noCameraAccessible: undefined,

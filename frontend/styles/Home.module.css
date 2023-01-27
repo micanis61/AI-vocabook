@@ -12,7 +12,10 @@
   align-items: center;
 }
 
-
+.mainIcon {
+  width: 4svh;
+  height: 4svh;
+}
 
 .camera {
   margin: auto;
