@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hac-it-ai02-word-learning",
+  "private_key_id": "3826c12c23e14bf44c976bc775475dbd56cd6a3e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDTFFbfchjqKEcx\ntP9uwoi2HdD1DO6DP6RJ89tr8C8F5CNKvnanAX8Mlmuw7WZvhodeMcYtBciAmFE2\n2YVWM+QDPG1Qfx8TgxSqcC8Ykgr9rVD8+ZkC+BZBpm9h67C700JSddt4/1Lg9GgR\nPioODkY+R3iCvjAtxr69yC5CjXm3/cTJktOH9mHLRL3t3623Ft5OWyFrSQ0etVxx\nkuQFErUlfdtIJnoY3UeyG5N7SsoJ5LAXY5yVCCOwYKhBXJeYTW5R1LkG2uhNN3v6\n3hmKiFoeyAbYncg/ZZLn9Chw21JC2G0QVH7jPbzkphv+xoQ+HuaqQYMOTnhlFEu/\nWqrub4whAgMBAAECggEAC3JU67UiSMB6a+Wm3HjMNSQUytUysgdnf2MsCQRzaFxg\n1ZLSmGfqXeJiYKvfHDktahxE5PglUWPxM4pEQtJ5kPtb6juakdJP8pY215xD4FHf\nzHg0pgaSHmlKLQM9CFKCjDo79qnR8sUOR7EZUr3PbV0u2dg6gKEAgwYyDAXkDegp\n5220RL/yNdisyfdCkaIWx4K3uMe3eEs2HUTCQY1v3rexjxOv+zTeeAHgO7N7TwUq\n1v/WQ7xQRYMqecKqBWlSDbBNQ8ue/Qccg9aBkhbHheWBNdK162KiIewbyzZQckZY\nAhgAUN30EsFoOrVM0CaBkzAsN8iRGQ4v18Q/SvvBgQKBgQDpYzjU+QZf7Z52qdny\njXera/EwjEYp1I4uwD7k3dwFVpUbo1RNHKtfN2N43uZfqq29O5ZSEwhw1DXOsEiC\nIViwoun4I8o6GK0NwsoKiTw51Iaq/r1cz5sutkCLn6t3H/op6ytiKEupjeMrkr9Q\nvHHnzqwDLkruiY+/Q4JZcTbBeQKBgQDnh81pId3JQ5UW0Hr1u13DslVASTnm4/aZ\nj7LTDCbhpJYJWT4AsYJRlQ7QBEhAIBSr97OOiU3spE+7GknVyIsJiCNyE9a18BqG\nyROGY/SQUol0Y+UMWSIENUkroe0t7hWP5jRR07R+Lr/Xx2XilSxd9hwY34ZtpfpT\n3s9PYjTd6QKBgQCuPm7yyk0RF5XEYEEgzq+2ous6ZLAJkPDqRItwUZdvwNmn/cP1\nol7rwq2YU0pJyGLYMgGjmyQlILpfastnpD/T+H2XzhiwUTX6XSB8x0LYpiw4w+Fa\nxoDEWjtMQtRAJvadjz8flJgQqaceI/yD6X1dJLbV1R0KhFd2448Q+e54eQKBgGvu\nY7RJxFEpfxvGjjt1X811mcZBHIvk4zVMxqkZthpkFkk/X+cE2OJdIS2ZgXDbQ6ey\n7fJZUYkqQ7zOEXNmbGJCI3vvgZ0I0+TXYZG5kO2ifE9UrhbmijP5/yUm9CEAJu8Q\n+nzWuwJDmszlODq7HZajvw9dTBZbVGm6qVuxRUHZAoGAafRYH7eRt7/pVjPB2BSD\nrT3X37+CiJtk7uqC0cA7PifzYcLJLV5Gad5hq+t8t0HTxGl3w86i3Z9cfRm1ieSS\nb/LpVY25MO+tUmbzh4TmoQ0rX9QkLTxVgZuHt/GLqdn52z35ZMqNNl+i8DzsJ8K8\nnxxEr4nTedsLqrJaC0h9tBs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ai-word-learning-61@hac-it-ai02-word-learning.iam.gserviceaccount.com",
+  "client_id": "102375052668005093733",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ai-word-learning-61%40hac-it-ai02-word-learning.iam.gserviceaccount.com"
+}
