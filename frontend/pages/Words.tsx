@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Footer from './components/footer'
 import TakePhoto from './components/camera'
 export default function Words() {
-  //ユーザーの端末情報を取得
   return (
     <div>
       <Head>
