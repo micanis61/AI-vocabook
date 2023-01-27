@@ -11,6 +11,7 @@ export default function Study() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
+        <p className={styles.p1}>ここは学習です</p>
         <WordCategory />
       </div>
       <Footer />

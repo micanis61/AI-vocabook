@@ -9,7 +9,7 @@ export default function index() {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
       </Head>
       <div>
-        <p>ホームです</p>
+        <p className={styles.p1}>ホームです</p>
       </div>
       <Footer />
     </div>

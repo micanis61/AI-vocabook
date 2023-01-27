@@ -11,10 +11,10 @@ export default function Words() {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
       </Head>
       <div>
-        <p>ここは登録です</p>
+        <p className={styles.p1}>ここは登録です</p>
         <TakePhoto />
       </div>
       <Footer />
     </div>
-    )
+  )
 }
