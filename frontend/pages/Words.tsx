@@ -10,7 +10,7 @@ export default function Words() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <div>
-      <p>ここは登録です</p>
+      <p className={styles.p1}>ここは登録です</p>
       <TakePhoto />
     </div>
     <Footer />

@@ -1,21 +1,38 @@
+.header {
+  display: flex;
+}
+
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
+  height: 3svh;
   border-top: 1px solid #eaeaea;
   justify-content: space-around;
   align-items: center;
 }
 
+
+
 .camera {
   margin: auto;
-  width: 200px;
-  height: 356px;
+  width: 100svw;
+  height: 100svh;
   border: solid 1px black;
 }
 
 .image{
-  width: 200px;
-  height: 356px;
+  width: 100svw;
+  height: 100svh;
   transform: scale(-1, 1);
+}
+
+.p1 {
+  font-size: 3svh;
+}
+
+.button {
+  width: 300px;
+  height: 300px;
+  font-size: 100px;
 }
