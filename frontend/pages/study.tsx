@@ -10,7 +10,7 @@ export default function Study() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>
-          <p>ここは学習です</p>
+          <p className={styles.p1}>ここは学習です</p>
         </div>
         <Footer />
       </div>

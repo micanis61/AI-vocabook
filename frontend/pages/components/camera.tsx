@@ -18,7 +18,7 @@ export default function TakePhoto() {
         }} />
       </div>
       <br />
-      <button onClick={() => setImage(camera.current.takePhoto())}>Take photo</button>
+      <button className={styles.button} onClick={() => setImage(camera.current.takePhoto())}>Take photo</button>
       <br />
       <img className={styles.image} src={image} alt="TakePhoto" />
     </div>

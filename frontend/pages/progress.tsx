@@ -10,7 +10,7 @@ export default function Progress() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>
-          <p>ここは進捗です</p>
+          <p className={styles.p1}>ここは進捗です</p>
         </div>
         <Footer />
       </div>
