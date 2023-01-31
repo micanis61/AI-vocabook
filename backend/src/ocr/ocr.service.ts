@@ -1,5 +1,8 @@
 import { Injectable } from '@nestjs/common';
+import { CreateOcrDto } from './dto/create-ocr.dto';
 import { Ocr } from './ocr.model';
+import { v4 as uuid } from 'uuid' 
+import { NotFoundException } from '@nestjs/common/exceptions';
 
 
 @Injectable()
@@ -11,10 +14,18 @@ export class OcrService {
     }
 
     findById(id: string): Ocr{
-        return this.Ocr.find((Ocr)=> Ocr.id == id);
+        const found = this.Ocr.find((Ocr)=> Ocr.id == id);
+        if (!found){
+            throw new NotFoundException();
+        }
+        return found;
     }
 
-    create(Ocr: Ocr): Ocr{
+    create(CreateOcrDto: CreateOcrDto): Ocr{
+        const Ocr: Ocr = {
+            id:uuid(),
+            ...CreateOcrDto,
+        };
         this.Ocr.push(Ocr);
         return Ocr ;
     }

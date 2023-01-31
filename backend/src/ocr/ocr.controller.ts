@@ -1,5 +1,7 @@
 import { Body, Controller, Delete, Param, Patch, Post } from '@nestjs/common';
 import { Get } from '@nestjs/common/decorators';
+import { ParseUUIDPipe } from '@nestjs/common/pipes';
+import { CreateOcrDto } from './dto/create-ocr.dto';
 import { Ocr } from './ocr.model';
 import { OcrService } from './ocr.service';
 
@@ -14,33 +16,14 @@ export class OcrController {
     }
 
     @Get(':id')
-    findById(@Param('id') id: string): Ocr{
+    findById(@Param('id',ParseUUIDPipe) id: string): Ocr{
         return this.OcrService.findById(id);
     }
 
 
     @Post()
-    create(
-        @Body('id') id:string,
-        @Body('question') question:string,
-        @Body('answer') answer:string,
-        @Body('isCorrect') isCorrect: number,
-        @Body('isWrong')isWrong: number,
-        @Body('createDate')createDate: Date,
-        @Body('updateDate')updateDate: Date,
-        @Body('user')user: string,
-    ): Ocr{
-        const Ocr: Ocr = {
-            id,
-            question,
-            answer,
-            isCorrect,
-            isWrong,
-            createDate,
-            updateDate,
-            user,
-        }
-        return this.OcrService.create(Ocr);
+    create(@Body() CreateOcrDto: CreateOcrDto): Ocr{
+        return this.OcrService.create(CreateOcrDto);
     }
 
     @Patch(':id')
@@ -49,7 +32,7 @@ export class OcrController {
     }
 
     @Delete(':id')
-    delete(@Param('id') id: string): void{
+    delete(@Param('id', ParseUUIDPipe) id: string): void{
         this.OcrService.delete(id);
     }
 }
