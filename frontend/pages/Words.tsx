@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Footer from './components/footer'
 import TakePhoto from './components/camera'
+import styles from '../styles/Home.module.css'
 export default function Words() {
   return (
     <div>
