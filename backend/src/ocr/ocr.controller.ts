@@ -2,7 +2,7 @@ import { Body, Controller, Delete, Param, Patch, Post } from '@nestjs/common';
 import { Get } from '@nestjs/common/decorators';
 import { ParseUUIDPipe } from '@nestjs/common/pipes';
 import { CreateOcrDto } from './dto/create-ocr.dto';
-import { Ocr } from './ocr.model';
+import { Ocr } from '../entities/ocr.entities';
 import { OcrService } from './ocr.service';
 
 
@@ -22,8 +22,8 @@ export class OcrController {
 
 
     @Post()
-    create(@Body() CreateOcrDto: CreateOcrDto): Ocr{
-        return this.OcrService.create(CreateOcrDto);
+    async create(@Body() createOcrDto: CreateOcrDto): Promise<Ocr>{
+        return await this.OcrService.create(createOcrDto);
     }
 
     @Patch(':id')

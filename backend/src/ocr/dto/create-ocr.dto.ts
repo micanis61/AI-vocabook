@@ -8,11 +8,11 @@ export class CreateOcrDto {
     @MaxLength(40)
     question: string;
     answer: string;
-
+    user: string;
     
     isCorrect: number;
     isWrong: number;
-    user: string;
+    
     createDate: Date;
     updateDate: Date;
 }
