@@ -1,12 +1,13 @@
 import { Injectable } from '@nestjs/common';
 import { CreateOcrDto } from './dto/create-ocr.dto';
-import { Ocr } from './ocr.model';
-import { v4 as uuid } from 'uuid' 
+import { Ocr } from '../entities/ocr.entities';
 import { NotFoundException } from '@nestjs/common/exceptions';
+import { OcrRepository } from './Ocr.repository';
 
 
 @Injectable()
 export class OcrService {
+    constructor(private readonly OcrRepository:OcrRepository){}
     private Ocr: Ocr[]=[];
 
     findAll(): Ocr[]{
@@ -21,13 +22,8 @@ export class OcrService {
         return found;
     }
 
-    create(CreateOcrDto: CreateOcrDto): Ocr{
-        const Ocr: Ocr = {
-            id:uuid(),
-            ...CreateOcrDto,
-        };
-        this.Ocr.push(Ocr);
-        return Ocr ;
+    async create(CreateOcrDto: CreateOcrDto): Promise<Ocr>{
+        return await this.OcrRepository.createOcr(CreateOcrDto);
     }
 
     update(id: string): Ocr{
