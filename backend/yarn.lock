@@ -5231,10 +5231,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typeorm@^0.3.0, typeorm@^0.3.6:
-  version "0.3.6"
-  resolved "https://registry.npmjs.org/typeorm/-/typeorm-0.3.6.tgz"
-  integrity sha512-DRqgfqcelMiGgWSMbBmVoJNFN2nPNA3EeY2gC324ndr2DZoGRTb9ILtp2oGVGnlA+cu5zgQ6it5oqKFNkte7Aw==
+typeorm@^0.3.0, typeorm@^0.3.11:
+  version "0.3.11"
+  resolved "https://registry.npmjs.org/typeorm/-/typeorm-0.3.11.tgz"
+  integrity sha512-pzdOyWbVuz/z8Ww6gqvBW4nylsM0KLdUCDExr2gR20/x1khGSVxQkjNV/3YqliG90jrWzrknYbYscpk8yxFJVg==
   dependencies:
     "@sqltools/formatter" "^1.2.2"
     app-root-path "^3.0.0"
