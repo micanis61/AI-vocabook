@@ -7,6 +7,8 @@ export const AppDataSource = new DataSource({
     username:'postgres',
     password:'postgres',
     database:'postgres',
+    entities:[],
+    migrations:[]
 })
 
 AppDataSource.initialize()

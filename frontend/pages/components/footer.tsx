@@ -9,7 +9,6 @@ export default function Footer () {
         <Link href="/study"><PencilSimpleLine className={styles.mainIcon} size={20} /></Link>
         <Link href="/words"><Books className={styles.mainIcon} size={20} /></Link>
         <Link href="/progress"><ChartPieSlice className={styles.mainIcon} size={20} /></Link>
-        
       </footer>
     )
 }
