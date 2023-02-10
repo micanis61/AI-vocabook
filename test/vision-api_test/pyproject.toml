@@ -9,6 +9,7 @@ packages = [{include = "ai_test_2022"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 google-cloud-vision = "^3.2.0"
+fastapi = "^0.90.1"
 
 
 [build-system]
