@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import WordCategory from './components/wordCategory'
-import Footer from './components/footer'
-import styles from '../styles/Home.module.css'
+import WordCategory from '../components/wordCategory'
+import Footer from '../components/footer'
+import styles from '../../styles/Home.module.css'
 export default function Study() {
   return (
     <div className={styles.container}>
